@@ -5,6 +5,8 @@
  */
 package gof.sample.creational.abstractFactory.product.concrete;
 
+import gof.sample.creational.abstractFactory.product.abstracts.Sauce;
+
 /**
  *
  * @author David_Puerta

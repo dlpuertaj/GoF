@@ -5,6 +5,8 @@
  */
 package gof.sample.creational.factoryMethod;
 
+import gof.sample.creational.abstractFactory.factory.abstracts.BaseToppingFactory;
+
 /**
  *
  * @author David_Puerta

@@ -5,6 +5,8 @@
  */
 package gof.sample.creational.factoryMethod;
 
+import gof.sample.creational.abstractFactory.factory.abstracts.BaseToppingFactory;
+
 /**
  * At this point let us understand the relationship of abstract factory with 
  * factory method. If you have noticed, the createCheese() and createSauce() are

@@ -5,6 +5,8 @@
  */
 package gof.sample.creational.abstractFactory.product.concrete;
 
+import gof.sample.creational.abstractFactory.product.abstracts.Cheese;
+
 /**
  *
  * @author David_Puerta
