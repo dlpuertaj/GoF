@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gof.behavior.factoryMethod.creator;
-
-import gof.behavior.factoryMethod.product.Product;
+package gof.creational.factoryMethod.abstracts;
 
 /**
  *
@@ -21,6 +19,10 @@ import gof.behavior.factoryMethod.product.Product;
  *   - A class wants its subclasses to specify the objects it creates.
  *   - Classes delegate  responsibility to one of several helper subclasses,
  *     and want to localize the knowledge of which helper subclass is the delegate.
+ * 
+ * *Consequences:
+ *   1. Provides hooks for subclasses
+ *   2. Connects parallel class hierachies
  */
 public abstract class Creator {
     Product product;

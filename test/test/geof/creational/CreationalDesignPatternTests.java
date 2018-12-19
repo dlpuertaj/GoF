@@ -3,18 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package test.geof.factoryMethod;
-
-import gof.behavior.factoryMethod.concrete.concreteCreator.PizzaFactory;
-import gof.behavior.factoryMethod.creator.BasePizzaFactory;
-import gof.behavior.factoryMethod.product.Pizza;
+package test.geof.creational;
+import gof.sample.creational.factoryMethod.BasePizzaFactory;
+import gof.sample.creational.factoryMethod.Pizza;
+import gof.sample.creational.factoryMethod.PizzaFactory;
 import org.junit.Test;
 
 /**
  *
  * @author David_Puerta
  */
-public class FactoryMethodTest {
+public class CreationalDesignPatternTests {
     
     @Test
     public void testMakePizzas(){

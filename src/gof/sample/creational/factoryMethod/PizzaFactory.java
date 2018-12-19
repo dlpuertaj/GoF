@@ -3,13 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gof.behavior.factoryMethod.concrete.concreteCreator;
+package gof.sample.creational.factoryMethod;
 
-import gof.behavior.factoryMethod.concrete.CheesePizza;
-import gof.behavior.factoryMethod.concrete.PepperoniPizza;
-import gof.behavior.factoryMethod.concrete.VeggiePizza;
-import gof.behavior.factoryMethod.creator.BasePizzaFactory;
-import gof.behavior.factoryMethod.product.Pizza;
 
 /**
  *
