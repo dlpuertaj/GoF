@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gof.sample.creational.abstractFactory.factory.abstracts;
+package gof.sample.creational.abstractFactory.factory;
 
-import gof.sample.creational.abstractFactory.product.abstracts.Cheese;
-import gof.sample.creational.abstractFactory.product.abstracts.Sauce;
+import gof.sample.creational.abstractFactory.product.Cheese;
+import gof.sample.creational.abstractFactory.product.Sauce;
 
 
 /**

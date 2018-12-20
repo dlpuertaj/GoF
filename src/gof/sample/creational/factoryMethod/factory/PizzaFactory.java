@@ -5,8 +5,8 @@
  */
 package gof.sample.creational.factoryMethod.factory;
 
-import gof.sample.creational.abstractFactory.factory.concrete.GourmetToppingFactory;
-import gof.sample.creational.abstractFactory.factory.concrete.SicillianToppingFactory;
+import gof.sample.creational.abstractFactory.factory.GourmetToppingFactory;
+import gof.sample.creational.abstractFactory.factory.SicillianToppingFactory;
 import gof.sample.creational.factoryMethod.product.CheesePizza;
 import gof.sample.creational.factoryMethod.product.PepperoniPizza;
 import gof.sample.creational.factoryMethod.product.Pizza;
