@@ -5,8 +5,6 @@
  */
 package others.simpleFactory;
 
-import java.util.Scanner;
-
 /**
  *
  * In object-oriented programming, a factory is a special kind of object that can create
