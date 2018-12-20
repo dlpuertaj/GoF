@@ -3,16 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gof.sample.creational.factoryMethod;
+package gof.sample.creational.factoryMethod.product;
 
 import gof.sample.creational.abstractFactory.factory.abstracts.BaseToppingFactory;
+import gof.sample.creational.abstractFactory.factory.concrete.GourmetToppingFactory;
 
 /**
- * At this point let us understand the relationship of abstract factory with 
- * factory method. If you have noticed, the createCheese() and createSauce() are
- * factory methods that we used in our abstract factory. In other words, we can 
- * say that an abstract factory object can use factory methods, one for each 
- * product to create.
+ *
+ * CONCRETE PRODUCT: Are concrete subclasses that implement or extend Product. 
+ * The FACTORY METHOD (inside the subclass of the CREATOR) instantiates these
+ * subclasses.
+ * 
  */
 public class CheesePizza extends Pizza{
 
@@ -21,6 +22,7 @@ public class CheesePizza extends Pizza{
     public CheesePizza(BaseToppingFactory toppingFactory){
         this.toppingFactory = toppingFactory;
     }
+
     @Override
     public void addIngredients() {
         System.out.println("Prepearing ingredients for cheese pizza");

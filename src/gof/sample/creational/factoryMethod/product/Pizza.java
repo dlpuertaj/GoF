@@ -3,11 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gof.sample.creational.factoryMethod;
+package gof.sample.creational.factoryMethod.product;
 
 /**
  *
- * @author David_Puerta
+ * PRODUCT: Is an interface or an abstract class whose subclasses are 
+ * instantiated by the factory method
+ * 
  */
 public abstract class Pizza {
     public abstract void addIngredients();

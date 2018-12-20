@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gof.creational.factoryMethod.concrete;
-
-import gof.creational.factoryMethod.abstracts.Product;
+package gof.creational.factoryMethod.product;
 
 /**
  *
