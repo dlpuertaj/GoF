@@ -15,7 +15,8 @@ import gof.sample.creational.factoryMethod.product.VeggiePizza;
 
 /**
  *
- * @author David_Puerta
+ * The Factory Method Pattern defines an interface for creating an object, but
+ * lets sublcasses decide which class to instantiate.
  */
 public class PizzaFactory extends BasePizzaFactory{
 

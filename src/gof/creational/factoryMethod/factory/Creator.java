@@ -25,6 +25,10 @@ import gof.creational.factoryMethod.product.Product;
  * *Consequences:
  *   1. Provides hooks for subclasses
  *   2. Connects parallel class hierachies
+ * 
+ * *Parameterized factory methods-> Another variation on the pattern lets the
+ *  factory method create multiple kinds of products. The factory method takes
+ *  a parameter that identifies the kind of object to create.
  */
 public abstract class Creator {
     Product product;
