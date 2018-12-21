@@ -5,12 +5,14 @@
  */
 package gof.creational.factoryMethod.product;
 
+import gof.creational.Product;
+
 /**
  *
  * @author David_Puerta
  * -> CONCRETE PRODUCT
  */
-public class MyProduct extends Product{
+public class MyProduct implements Product{
 
     private String name;
     
@@ -18,12 +20,12 @@ public class MyProduct extends Product{
         this.name = name;
     }
     @Override
-    public void open() {
+    public void create() {
         System.out.println("Product " + name + " is ready to edit");
     }
 
     @Override
-    public void close() {
+    public void delete() {
         System.out.println("Product " + name + " is now closed");
     }
 
@@ -34,7 +36,5 @@ public class MyProduct extends Product{
     public void setName(String name) {
         this.name = name;
     }
-    
-    
-    
+
 }

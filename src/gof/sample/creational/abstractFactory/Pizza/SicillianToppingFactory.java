@@ -3,13 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gof.sample.creational.abstractFactory.factory;
+package gof.sample.creational.abstractFactory.Pizza;
 
-import gof.sample.creational.abstractFactory.factory.BaseToppingFactory;
-import gof.sample.creational.abstractFactory.product.Cheese;
-import gof.sample.creational.abstractFactory.product.Sauce;
-import gof.sample.creational.abstractFactory.product.MozzarellaCheese;
-import gof.sample.creational.abstractFactory.product.TomatoSauce;
+import gof.sample.creational.abstractFactory.Pizza.BaseToppingFactory;
 
 /**
  *

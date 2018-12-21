@@ -5,7 +5,7 @@
  */
 package gof.sample.creational.factoryMethod.product;
 
-import gof.sample.creational.abstractFactory.factory.BaseToppingFactory;
+import gof.sample.creational.abstractFactory.Pizza.BaseToppingFactory;
 
 /**
  *

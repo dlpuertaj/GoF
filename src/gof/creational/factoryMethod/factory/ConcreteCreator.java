@@ -6,7 +6,7 @@
 package gof.creational.factoryMethod.factory;
 
 import gof.creational.factoryMethod.product.MyProduct;
-import gof.creational.factoryMethod.product.Product;
+import gof.creational.Product;
 
 
 /**

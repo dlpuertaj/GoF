@@ -5,7 +5,7 @@
  */
 package gof.creational.factoryMethod.factory;
 
-import gof.creational.factoryMethod.product.Product;
+import gof.creational.Product;
 
 /**
  *
@@ -37,10 +37,10 @@ public abstract class Creator {
     
     public void newProduct(String name){
         Product prod = createProduct(name);
-        prod.open();
+        prod.create();
     };
     
-    public void closeDocument(){
-        this.product.close();
+    public void deleteProduct(){
+        this.product.delete();
     }
 }

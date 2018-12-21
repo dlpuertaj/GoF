@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gof.sample.creational.abstractFactory.product;
+package gof.sample.creational.abstractFactory.Pizza;
 
 /**
  *
  * @author David_Puerta
  */
-public class TomatoSauce implements Sauce{
-    public TomatoSauce(){
+public class CaliforniaSauce implements Sauce{
+
+    public CaliforniaSauce(){
         prepareSauce();
     }
     @Override
     public void prepareSauce() {
-        System.out.println("Preparing tomato sauce...");
-    }
-    
+        System.out.println("Preparing California sauce...");
+    } 
 }

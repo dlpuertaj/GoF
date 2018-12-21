@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gof.sample.creational.abstractFactory.product;
+package gof.sample.creational.abstractFactory.Animal;
 
 /**
  *
  * @author David_Puerta
  */
-public interface Sauce {
-    void prepareSauce();
+public interface AnimalFactory {
+    
 }
