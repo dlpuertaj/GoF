@@ -4,10 +4,14 @@
  * and open the template in the editor.
  */
 package test.geof.creational;
+import gof.sample.creational.factoryMethod.factory.AnimalFactory;
 import gof.sample.creational.factoryMethod.factory.BasePizzaFactory;
+import gof.sample.creational.factoryMethod.factory.DogFactory;
 import gof.sample.creational.factoryMethod.product.Pizza;
 import gof.sample.creational.factoryMethod.factory.PizzaFactory;
+import gof.sample.creational.factoryMethod.factory.TigerFactory;
 import org.junit.Test;
+import others.simpleFactory.Animal;
 
 /**
  * At this point let us understand the relationship of abstract factory with 
@@ -23,6 +27,17 @@ public class CreationalDesignPatternTests {
         BasePizzaFactory pizzaFactory = new PizzaFactory();
         Pizza cheesePizza = pizzaFactory.createPizza("cheese","gourmet");
         Pizza veggiePizza = pizzaFactory.createPizza("veggie","sicillian");
+    }
+    
+    @Test
+    public void testFactoryMethodAnimalExample(){
+        AnimalFactory tigerFactory = new TigerFactory();
+        
+        Animal aTiger = tigerFactory.makeAnimal();
+        
+        AnimalFactory dogFactory = new DogFactory();
+        
+        Animal aDog = dogFactory.makeAnimal();
     }
     
 }

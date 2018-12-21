@@ -5,10 +5,18 @@
  */
 package gof.sample.creational.factoryMethod.factory;
 
+import others.simpleFactory.Animal;
+import others.simpleFactory.Dog;
+
 /**
  *
  * @author David_Puerta
  */
-public class DogFactory {
+public class DogFactory extends AnimalFactory {
+
+    @Override
+    public Animal createAnimal() {
+        return new Dog();
+    }
     
 }
