@@ -27,6 +27,6 @@ package gof.creational.abstractFactory;
  * Implementation (useful techniques)
  *  - Factorie as singleton
  */
-public class AbstractFactory {
+public interface AbstractFactory {
     
 }

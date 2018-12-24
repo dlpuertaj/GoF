@@ -26,10 +26,10 @@ public class SimpleFactory {
         
         switch(choice){
             case 0:
-                intendedAnimal = new Dog();
+                intendedAnimal = new ConcreteDog();
                 break;
             case 1:
-                intendedAnimal = new Tiger();
+                intendedAnimal = new ConcreteTiger();
                 break;
             default:
                 System.out.println("You must enter either 0 or 1");

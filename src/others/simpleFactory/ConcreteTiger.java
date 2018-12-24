@@ -9,7 +9,7 @@ package others.simpleFactory;
  *
  * @author David_Puerta
  */
-public class Tiger implements Animal{
+public class ConcreteTiger implements Animal{
 
     @Override
     public void speak() {

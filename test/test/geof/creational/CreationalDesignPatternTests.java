@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 package test.geof.creational;
-import gof.sample.creational.factoryMethod.factory.AnimalFactory;
-import gof.sample.creational.factoryMethod.factory.BasePizzaFactory;
-import gof.sample.creational.factoryMethod.factory.DogFactory;
-import gof.sample.creational.factoryMethod.product.Pizza;
-import gof.sample.creational.factoryMethod.factory.PizzaFactory;
-import gof.sample.creational.factoryMethod.factory.TigerFactory;
+import gof.sample.creational.factoryMethod.Animal.AnimalFactory;
+import gof.sample.creational.factoryMethod.Pizza.BasePizzaFactory;
+import gof.sample.creational.factoryMethod.Animal.DogFactory;
+import gof.sample.creational.factoryMethod.Pizza.Pizza;
+import gof.sample.creational.factoryMethod.Pizza.PizzaFactory;
+import gof.sample.creational.factoryMethod.Animal.TigerFactory;
 import org.junit.Test;
 import others.simpleFactory.Animal;
 

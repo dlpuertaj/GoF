@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gof.sample.creational.factoryMethod.factory;
+package gof.sample.creational.factoryMethod.Animal;
 
 import others.simpleFactory.Animal;
-import others.simpleFactory.Tiger;
+import others.simpleFactory.ConcreteTiger;
 
 /**
  *
@@ -16,7 +16,7 @@ public class TigerFactory extends AnimalFactory{
 
     @Override
     public Animal createAnimal() {
-        return new Tiger();
+        return new ConcreteTiger();
     }
     
 }

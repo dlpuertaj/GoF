@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gof.sample.creational.factoryMethod.product;
+package gof.sample.creational.factoryMethod.Pizza;
 
 import gof.sample.creational.abstractFactory.Pizza.BaseToppingFactory;
+import gof.sample.creational.abstractFactory.Pizza.GourmetToppingFactory;
 
 /**
  *
@@ -14,16 +15,17 @@ import gof.sample.creational.abstractFactory.Pizza.BaseToppingFactory;
  * subclasses.
  * 
  */
-public class PepperoniPizza extends Pizza{
+public class CheesePizza extends Pizza{
+
     BaseToppingFactory toppingFactory;
-    public PepperoniPizza(BaseToppingFactory toppingFactory)
-    {
-        this.toppingFactory=toppingFactory;
+    
+    public CheesePizza(BaseToppingFactory toppingFactory){
+        this.toppingFactory = toppingFactory;
     }
 
     @Override
     public void addIngredients() {
-        System.out.println("Preparing ingredients for pepperoni pizza.");
+        System.out.println("Prepearing ingredients for cheese pizza");
         toppingFactory.createCheese();
         toppingFactory.createSauce();
     }

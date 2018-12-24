@@ -3,14 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gof.sample.creational.factoryMethod.factory;
+package gof.sample.creational.factoryMethod.Pizza;
 
+import gof.sample.creational.factoryMethod.Pizza.BasePizzaFactory;
 import gof.sample.creational.abstractFactory.Pizza.GourmetToppingFactory;
 import gof.sample.creational.abstractFactory.Pizza.SicillianToppingFactory;
-import gof.sample.creational.factoryMethod.product.CheesePizza;
-import gof.sample.creational.factoryMethod.product.PepperoniPizza;
-import gof.sample.creational.factoryMethod.product.Pizza;
-import gof.sample.creational.factoryMethod.product.VeggiePizza;
+import gof.sample.creational.factoryMethod.Pizza.CheesePizza;
+import gof.sample.creational.factoryMethod.Pizza.PepperoniPizza;
+import gof.sample.creational.factoryMethod.Pizza.Pizza;
+import gof.sample.creational.factoryMethod.Pizza.VeggiePizza;
 
 
 /**

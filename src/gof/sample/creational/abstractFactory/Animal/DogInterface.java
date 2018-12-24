@@ -7,9 +7,8 @@ package gof.sample.creational.abstractFactory.Animal;
 
 /**
  *
- * Another concrete factory that implements the AnimalFactory interface. 
- * It creates pet dogs and pet tigers
+ * @author David_Puerta
  */
-public class PetAnimalFactory {
+public interface DogInterface {
     
 }
