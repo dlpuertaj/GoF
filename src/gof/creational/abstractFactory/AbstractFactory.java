@@ -5,6 +5,8 @@
  */
 package gof.creational.abstractFactory;
 
+import gof.creational.Product;
+
 /**
  * ABSTRACT FACTORY: Declares an interface for operations that create abstract
  * product objects.
@@ -28,5 +30,5 @@ package gof.creational.abstractFactory;
  *  - Factorie as singleton
  */
 public interface AbstractFactory {
-    
+    public Product createProduct(String name);
 }

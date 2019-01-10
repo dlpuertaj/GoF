@@ -5,7 +5,7 @@
  */
 package gof.creational.factoryMethod.factory;
 
-import gof.creational.factoryMethod.product.MyProduct;
+import gof.creational.ConcreteProduct;
 import gof.creational.Product;
 
 
@@ -21,7 +21,7 @@ public class ConcreteCreator extends Creator{
     
     @Override
     public Product createProduct(String name) {
-        Product myProduct = new MyProduct(name);       
+        Product myProduct = new ConcreteProduct(name);       
         return myProduct;
     }
 }

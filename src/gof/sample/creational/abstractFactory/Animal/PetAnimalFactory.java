@@ -10,6 +10,16 @@ package gof.sample.creational.abstractFactory.Animal;
  * Another concrete factory that implements the AnimalFactory interface. 
  * It creates pet dogs and pet tigers
  */
-public class PetAnimalFactory {
+public class PetAnimalFactory implements AnimalAbstractFactory{
+
+    @Override
+    public DogInterface createDog() {
+        return new PetDog();
+    }
+
+    @Override
+    public TigerInterface createTiger() {
+        return new PetTiger();
+    }
     
 }

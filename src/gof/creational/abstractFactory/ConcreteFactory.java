@@ -5,10 +5,18 @@
  */
 package gof.creational.abstractFactory;
 
+import gof.creational.ConcreteProduct;
+import gof.creational.Product;
+
 /**
  *
  * CONCRETE FACTORY: Implements the operations to create concrete product objects
  */
-public class ConcreteFactory {
+public class ConcreteFactory implements AbstractFactory{
+
+    @Override
+    public Product createProduct(String name) {
+        return new ConcreteProduct(name);
+    }
     
 }

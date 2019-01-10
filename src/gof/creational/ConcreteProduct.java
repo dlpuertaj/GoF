@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gof.creational.factoryMethod.product;
+package gof.creational;
 
 import gof.creational.Product;
 
@@ -12,21 +12,21 @@ import gof.creational.Product;
  * @author David_Puerta
  * -> CONCRETE PRODUCT
  */
-public class MyProduct implements Product{
+public class ConcreteProduct implements Product{
 
     private String name;
     
-    public MyProduct(String name){
+    public ConcreteProduct(String name){
         this.name = name;
     }
     @Override
     public void create() {
-        System.out.println("Product " + name + " is ready to edit");
+        System.out.println("Product " + name + " created");
     }
 
     @Override
     public void delete() {
-        System.out.println("Product " + name + " is now closed");
+        System.out.println("Product " + name + " deleted");
     }
 
     public String getName() {

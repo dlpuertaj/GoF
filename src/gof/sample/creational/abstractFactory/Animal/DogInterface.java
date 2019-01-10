@@ -10,5 +10,6 @@ package gof.sample.creational.abstractFactory.Animal;
  * @author David_Puerta
  */
 public interface DogInterface {
-    
+    void speak();
+    void preferredAction();
 }

@@ -9,6 +9,16 @@ package gof.sample.creational.abstractFactory.Animal;
  *
  * @author David_Puerta
  */
-public class WildAnimalFactory {
+public class WildAnimalFactory implements AnimalAbstractFactory{
+
+    @Override
+    public DogInterface createDog() {
+        return new WildDog();
+    }
+
+    @Override
+    public TigerInterface createTiger() {
+        return new WildTiger();
+    }
     
 }
