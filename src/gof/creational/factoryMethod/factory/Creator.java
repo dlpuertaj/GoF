@@ -29,6 +29,9 @@ import gof.creational.Product;
  * *Parameterized factory methods-> Another variation on the pattern lets the
  *  factory method create multiple kinds of products. The factory method takes
  *  a parameter that identifies the kind of object to create.
+ * 
+ * The factory method pattern is supplying the framework
+ * through which different subclasses can make different products.
  */
 public abstract class Creator {
     Product product;
